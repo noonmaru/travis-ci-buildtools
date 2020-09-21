@@ -7,7 +7,7 @@ Simply executes BuildTools.jar in the ci environment.
 before_install:
   - wget https://raw.githubusercontent.com/noonmaru/travis-ci-buildtools/master/buildtools.sh
   - chmod +x buildtools.sh
-  - ./buildtools.sh 1.16.2 1.16.1 ← Put the version you want
+  - ./buildtools.sh 1.16.2 1.16.1 ← Put versions you want
 ```
 
 ### NOTE
