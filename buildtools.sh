@@ -1,7 +1,7 @@
 echo "Downloading BuildTools.jar"
 wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar -O BuildTools.jar
 
-args=("$@")
+args="$@"
 REPO_DIR="$HOME/.m2/repository/org/spigotmc/spigot/"
 
 for version in ${args[@]}; do
