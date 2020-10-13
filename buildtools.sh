@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Test"
 echo "Downloading BuildTools.jar"
